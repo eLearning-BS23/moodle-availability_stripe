@@ -47,14 +47,6 @@ M.availability_stripe.form.getNode = function(json) {
     html += M.util.get_string('cost', 'availability_stripe');
     html += '<input name="cost" type="text" /></label></div>';
 
-    html += '<div><label>';
-    html += M.util.get_string('itemname', 'availability_stripe');
-    html += '<input name="itemname" type="text" /></label></div>';
-
-    html += '<div><label>';
-    html += M.util.get_string('itemnumber', 'availability_stripe');
-    html += '<input name="itemnumber" type="text" /></label></div>';
-
     var node = Y.Node.create('<span>' + html + '</span>');
 
     // Set initial values based on the value from the JSON data in Moodle
@@ -64,12 +56,6 @@ M.availability_stripe.form.getNode = function(json) {
     }
     if (json.cost) {
         node.one('input[name=cost]').set('value', json.cost);
-    }
-    if (json.itemname) {
-        node.one('input[name=itemname]').set('value', json.itemname);
-    }
-    if (json.itemnumber) {
-        node.one('input[name=itemnumber]').set('value', json.itemnumber);
     }
 
     // Add event handlers (first time only).
@@ -140,10 +126,5 @@ M.availability_stripe.form.fillErrors = function(errors, node) {
     if ((value.cost !== undefined && typeof(value.cost) === 'string') || value.cost <= 0 ) {
         errors.push('availability_stripe:error_cost');
     }
-    if (value.itemname === '') {
-        errors.push('availability_stripe:error_itemname');
-    }
-    if (value.itemnumber === '') {
-        errors.push('availability_stripe:error_itemnumber');
-    }
+
 };
