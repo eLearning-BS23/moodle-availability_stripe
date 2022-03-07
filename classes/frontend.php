@@ -15,11 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Front-end class.
+ * Prints a particular instance of stripe
  *
- * @package availability_stripe
- * @copyright 2015 Daniel Neis Araujo <danielneis@gmail.com>
- * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * You can have a rather longer description of the file as well,
+ * if you like, and it can span multiple lines.
+ *
+ * @package    availability_stripe
+ * @copyright  2021 Brain station 23 ltd <https://brainstation-23.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 namespace availability_stripe;

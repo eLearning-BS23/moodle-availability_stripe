@@ -15,17 +15,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Listens for Instant Payment Notification from stripe
+ * Prints a particular instance of stripe
  *
- * This script waits for Payment notification from stripe,
- * then double checks that data by sending it back to stripe.
- * If stripe verifies this then sets the activity as completed.
+ * You can have a rather longer description of the file as well,
+ * if you like, and it can span multiple lines.
  *
  * @package    availability_stripe
- * @copyright  2010 Eugene Venter
- * @copyright  2015 Daniel Neis
- * @author     Eugene Venter - based on code by others
- * @author     Daniel Neis - based on code by others
+ * @copyright  2021 Brain station 23 ltd <https://brainstation-23.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

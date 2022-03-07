@@ -24,9 +24,7 @@
  * @copyright  2021 Brain station 23 ltd <https://brainstation-23.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 require_once('../../../config.php');
 require('config.php');
 require_once($CFG->dirroot . '/availability/condition/stripe/lib.php');
