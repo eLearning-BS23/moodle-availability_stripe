@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<libraries>
+    <library>
+        <location>thirdparty/vendor/autoload.php</location>
+        <name>Composer Autoload</name>
+        <version>6.5.2</version>
+        <license>MIT</license>
+        <licenseversion></licenseversion>
+    </library>
+    <library>
+        <location>thirdparty/vendor/composer/</location>
+        <name>Composer</name>
+        <version>6.5.2</version>
+        <license>MIT</license>SS
+        <licenseversion></licenseversion>
+    </library>
+    <library>
+        <location>thirdparty/vendor/stripe</location>
+        <name>stripe</name>
+        <version>7.103.0</version>
+        <license>MIT</license>
+        <licenseversion></licenseversion>
+    </library>
+    <library>
+        <location>ipn.php</location>
+        <name>ipn</name>
+        <version>1.0.1</version>
+        <license>BS23</license>
+        <licenseversion></licenseversion>
+    </library>
+</libraries>
